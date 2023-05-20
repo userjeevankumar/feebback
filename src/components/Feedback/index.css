@@ -1,0 +1,107 @@
+/* Write your CSS code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  color: #0f172a;
+  font-weight: 450;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.container-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+}
+
+.card {
+  width: 80%;
+  padding: 24px;
+  color: #ffffff;
+  max-width: 550px;
+  border-radius: 12px;
+}
+
+.emoji-list {
+  display: flex;
+  padding: 0px;
+  justify-content: space-around;
+  list-style-type: none;
+  margin-top: 32px;
+}
+
+.btn {
+  border: none;
+  background-color: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.img-emoji {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 16px;
+}
+
+.emoji-name {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.img-love {
+  width: 50px;
+  height: 50px;
+}
+
+.TQ {
+  text-align: center;
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-weight: 450px;
+  font-size: 28px;
+}
+
+.para {
+  text-align: center;
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 450px;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    padding: 32px;
+  }
+
+  .emoji-name {
+    font-size: 12px;
+  }
+
+  .img-emoji {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 64px;
+  }
+  .heading {
+    font-size: 32px;
+  }
+}
